@@ -1,0 +1,493 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "intern@shopbook.lk",
+      "password": "QAIntern2024!",
+      "name": "Test User",
+      "shopName": "Test Shop",
+      "role": "admin"
+    }
+  ],
+  "customers": [
+    {
+      "id": 2,
+      "name": "Mary Perera",
+      "phone": "+94772234567",
+      "email": "mary.perera@email.com",
+      "address": "45 Galle Road, Dehiwala",
+      "totalCredit": 8500,
+      "createdAt": "2025-01-12T14:20:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Ahamed Nazeer",
+      "phone": "+94773234567",
+      "email": "ahamed.n@email.com",
+      "address": "78 Kandy Road, Kandy",
+      "totalCredit": 22500,
+      "createdAt": "2025-01-15T09:15:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Sathya Kumar",
+      "phone": "+94774234567",
+      "email": "sathya.k@email.com",
+      "address": "22 Temple Road, Jaffna",
+      "totalCredit": 5000,
+      "createdAt": "2025-01-18T16:45:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Priyanka Devi",
+      "phone": "+94775234567",
+      "email": "priyanka.d@email.com",
+      "address": "101 Park Road, Mount Lavinia",
+      "totalCredit": 0,
+      "createdAt": "2025-01-20T11:00:00Z"
+    },
+    {
+      "name": "Jithma Inuri Kaluarachchi",
+      "id": 8
+    },
+    {
+      "name": "New Customer",
+      "phone": "+94772234567",
+      "email": "new.customer@email.com",
+      "address": "45 Galle Road, Dehiwala",
+      "totalCredit": 8300,
+      "id": 9
+    },
+    {
+      "name": "Jithma Kaluarachchi",
+      "phone": "+94772234567",
+      "email": "new.customer@email.com",
+      "address": "45 Galle Road, Dehiwala",
+      "totalCredit": 8300,
+      "id": 10
+    },
+    {
+      "id": 14
+    },
+    {
+      "name": 56,
+      "id": 15
+    },
+    {
+      "name": "Automation User",
+      "phone": "+94770011122",
+      "id": 16
+    },
+    {
+      "name": "Automation User",
+      "phone": "+94770011122",
+      "id": 17
+    },
+    {
+      "name": "Automation User",
+      "phone": "+94770011122",
+      "id": 18
+    },
+    {
+      "name": "",
+      "phone": "+94772234567",
+      "email": "new.customer@email.com",
+      "address": "45 Galle Road, Dehiwala",
+      "totalCredit": 8300,
+      "id": 19
+    },
+    {
+      "name": "     ",
+      "phone": "+94772234567",
+      "totalCredit": 8300,
+      "id": 20
+    },
+    {
+      "name": "     ",
+      "id": 21
+    },
+    {
+      "name": "     ",
+      "id": 22
+    }
+  ],
+  "creditSales": [
+    {
+      "id": 3,
+      "customerId": 2,
+      "customerName": "Mary Perera",
+      "amount": 3500,
+      "dueDate": "2025-01-28",
+      "status": "pending",
+      "description": "Household items",
+      "createdAt": "2025-01-21T09:15:00Z",
+      "smsReminderSent": false,
+      "smsReminderDate": null
+    },
+    {
+      "id": 4,
+      "customerId": 2,
+      "customerName": "Mary Perera",
+      "amount": 5000,
+      "dueDate": "2025-01-22",
+      "status": "overdue",
+      "description": "Electronics payment",
+      "createdAt": "2025-01-15T11:30:00Z",
+      "smsReminderSent": true,
+      "smsReminderDate": "2025-01-19"
+    },
+    {
+      "name": "Jithma Kaluarachchi",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "customerId": 3,
+      "customerName": "Ahamed Nazeer",
+      "amount": 7500,
+      "dueDate": "2025-01-18",
+      "status": "paid",
+      "description": "December balance settlement",
+      "createdAt": "2025-01-05T10:00:00Z",
+      "paidAt": "2025-01-17T16:20:00Z",
+      "smsReminderSent": true,
+      "smsReminderDate": "2025-01-15"
+    },
+    {
+      "id": 7,
+      "customerId": 4,
+      "customerName": "Sathya Kumar",
+      "amount": 5000,
+      "dueDate": "2025-01-30",
+      "status": "pending",
+      "description": "School supplies order",
+      "createdAt": "2025-01-22T13:45:00Z",
+      "smsReminderSent": false,
+      "smsReminderDate": null
+    },
+    {
+      "id": 8,
+      "customerId": 5,
+      "customerName": "Priyanka Devi",
+      "amount": 2500,
+      "dueDate": "2025-01-24",
+      "status": "paid",
+      "description": "Cosmetic items",
+      "createdAt": "2025-01-17T17:00:00Z",
+      "paidAt": "2025-01-23T10:15:00Z",
+      "smsReminderSent": true,
+      "smsReminderDate": "2025-01-21"
+    },
+    {
+      "name": "Jithma Kaluarachchi",
+      "id": 9
+    },
+    {
+      "name": "Jithma Kaluarachchi",
+      "id": 10
+    },
+    {
+      "name": "Jithma Kaluarachchi",
+      "id": 11
+    },
+    {
+      "customerId": 3,
+      "customerName": "Test Customer",
+      "amount": 7500,
+      "dueDate": "2025-01-18",
+      "status": "paid",
+      "description": "December balance settlement",
+      "createdAt": "2025-01-05T10:00:00Z",
+      "paidAt": "2025-01-17T16:20:00Z",
+      "smsReminderSent": true,
+      "smsReminderDate": "2025-01-15",
+      "id": 12
+    },
+    {
+      "customerId": 16,
+      "amount": 5000,
+      "dueDate": "2026-02-25",
+      "status": "pending",
+      "id": 13
+    },
+    {
+      "customerId": 17,
+      "amount": 5000,
+      "dueDate": "2026-02-25",
+      "status": "pending",
+      "id": 14
+    },
+    {
+      "status": "paid",
+      "id": 15
+    }
+  ],
+  "products": [
+    {
+      "name": "Red Kakulu Rice",
+      "category": "Grains",
+      "unitPrice": 450,
+      "quantity": 100,
+      "reorderLevel": 20,
+      "barcode": "8901234567890",
+      "id": 1
+    },
+    {
+      "name": "Rice",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Coconut Oil (500ml)",
+      "category": "Oils",
+      "unitPrice": 350,
+      "quantity": 5,
+      "reorderLevel": 15,
+      "barcode": "8901234567893"
+    },
+    {
+      "id": 5,
+      "name": "Sugar (1kg)",
+      "category": "Sugar",
+      "unitPrice": 180,
+      "quantity": 200,
+      "reorderLevel": 50,
+      "barcode": "8901234567894"
+    },
+    {
+      "id": 6,
+      "name": "Tea Leaves (250g)",
+      "category": "Beverages",
+      "unitPrice": 290,
+      "quantity": 45,
+      "reorderLevel": 20,
+      "barcode": "8901234567895"
+    },
+    {
+      "id": 7,
+      "name": "Bread (Large)",
+      "category": "Bakery",
+      "unitPrice": 150,
+      "quantity": 0,
+      "reorderLevel": 10,
+      "barcode": "8901234567896"
+    },
+    {
+      "id": 8,
+      "name": "Milk Powder (400g)",
+      "category": "Dairy",
+      "unitPrice": 520,
+      "quantity": 60,
+      "reorderLevel": 15,
+      "barcode": "8901234567897"
+    },
+    {
+      "id": 9,
+      "name": "Eggs (Dozen)",
+      "category": "Dairy",
+      "unitPrice": 320,
+      "quantity": 35,
+      "reorderLevel": 10,
+      "barcode": "8901234567898"
+    },
+    {
+      "id": 10,
+      "name": "Chicken (1kg)",
+      "category": "Meat",
+      "unitPrice": 680,
+      "quantity": 25,
+      "reorderLevel": 10,
+      "barcode": "8901234567899"
+    },
+    {
+      "id": 11,
+      "name": "Sunlight Detergent (500g)",
+      "category": "Cleaning",
+      "unitPrice": 290,
+      "quantity": 40,
+      "reorderLevel": 15,
+      "barcode": "8901234567900"
+    },
+    {
+      "id": 12,
+      "name": "Soap (Bar)",
+      "category": "Cleaning",
+      "unitPrice": 55,
+      "quantity": 100,
+      "reorderLevel": 30,
+      "barcode": "8901234567901"
+    },
+    {
+      "name": "Jithma Kaluarachchi",
+      "id": 13
+    },
+    {
+      "name": "Soap (Bar)",
+      "category": "Cleaning",
+      "unitPrice": 55,
+      "quantity": 100,
+      "reorderLevel": 30,
+      "barcode": "8901234567901",
+      "id": 14
+    },
+    {
+      "name": "Rice",
+      "category": "Food",
+      "unitPrice": 120,
+      "quantity": 50,
+      "barcode": "ABC123",
+      "id": 15
+    },
+    {
+      "name": "Rice",
+      "category": "Food",
+      "unitPrice": 120,
+      "quantity": 50,
+      "barcode": "ABC123",
+      "id": 16
+    },
+    {
+      "name": "Soap",
+      "category": "Home",
+      "unitPrice": 60,
+      "quantity": 2,
+      "barcode": "SOAP01",
+      "id": 17
+    },
+    {
+      "name": "Book",
+      "category": "Study",
+      "unitPrice": 100,
+      "quantity": 5,
+      "barcode": "BOOK01",
+      "id": 18
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "category": "Rent",
+      "amount": 25000,
+      "date": "2025-01-01",
+      "description": "Shop rent - January"
+    },
+    {
+      "id": 2,
+      "category": "Electricity",
+      "amount": 8500,
+      "date": "2025-01-05",
+      "description": "Electricity bill"
+    },
+    {
+      "id": 3,
+      "category": "Stock",
+      "amount": 45000,
+      "date": "2025-01-10",
+      "description": "Weekly stock purchase"
+    },
+    {
+      "id": 4,
+      "category": "Salary",
+      "amount": 35000,
+      "date": "2025-01-15",
+      "description": "Assistant salary"
+    },
+    {
+      "id": 5,
+      "category": "Transport",
+      "amount": 5000,
+      "date": "2025-01-18",
+      "description": "Delivery expenses"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "City Rice Mill",
+      "phone": "+94112345678",
+      "email": "orders@cityricemill.lk",
+      "address": "315 Negombo Road, Colombo",
+      "category": "Grains"
+    },
+    {
+      "id": 2,
+      "name": "Ceylon Daily Products",
+      "phone": "+94114567890",
+      "email": "sales@ceylondaily.lk",
+      "address": "45 Narahenpita Road, Colombo",
+      "category": "Dairy"
+    },
+    {
+      "id": 3,
+      "name": "Lanka Wholesale",
+      "phone": "+94116789012",
+      "email": "contact@lankawholesale.lk",
+      "address": "78 Manning Place, Colombo",
+      "category": "General"
+    }
+  ],
+  "smsReminders": [
+    {
+      "id": 3,
+      "customerId": 2,
+      "customerPhone": "+94772234567",
+      "creditSaleId": 4,
+      "message": "Shopbook: අයකැමියාගේ ණය ගෙවීම 2025-01-22 දිනට නියමිතයි. මුදල් පිරිමිතුරු කරන්න.",
+      "language": "si",
+      "scheduledDate": "2025-01-19",
+      "status": "sent",
+      "sentAt": "2025-01-19T09:00:00Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 3,
+      "type": "expense",
+      "expenseId": 1,
+      "amount": -25000,
+      "date": "2025-01-01T08:00:00Z",
+      "description": "Shop rent payment"
+    },
+    {
+      "id": 4,
+      "type": "credit_sale",
+      "creditSaleId": 3,
+      "amount": 3500,
+      "date": "2025-01-21T09:15:00Z",
+      "description": "New credit sale to Mary Perera"
+    },
+    {
+      "id": 5,
+      "type": "expense",
+      "expenseId": 3,
+      "amount": -45000,
+      "date": "2025-01-10T14:00:00Z",
+      "description": "Weekly stock purchase"
+    }
+  ],
+  "reports": {
+    "dashboardSummary": {
+      "totalOutstanding": 51000,
+      "totalCustomers": 5,
+      "overdueCount": 1,
+      "overdueAmount": 5000,
+      "monthlyRevenue": 125000,
+      "monthlyExpenses": 78500,
+      "netProfit": 46500,
+      "lowStockItems": 3,
+      "pendingReminders": 2
+    },
+    "creditSummary": {
+      "pending": 43000,
+      "paid": 20000,
+      "overdue": 5000,
+      "total": 68000
+    },
+    "inventorySummary": {
+      "totalProducts": 12,
+      "totalValue": 156800,
+      "lowStockItems": 3,
+      "outOfStockItems": 1
+    }
+  }
+}
